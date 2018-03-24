@@ -8,7 +8,7 @@ public class Power
     
 	{
         
-		int result=1, p=3, 
+		int result=1, p=3, n=3;
 		while(p!=0)
     
 	        {
