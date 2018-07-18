@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Tourism</title>
+<style>
+body
+{
+margin:0;
+padding:0;
+}
+#all
+{
+background:#EFF2DF;
+}
+#para
+{
+background-color:black;
+color:white;
+padding:-10px;
+text-align:left;
+font-size:25px;
+font-family:Perpetua;
+}
+.link
+{
+text-align:right;
+}
+#header
+{
+background:pink;
+min-height:-10px;
+padding:33px 5%;
+list-style:none;
+}
+#nav
+{
+background:url(tn.jpg);
+background-image:cover;
+}
+#main
+{
+background:black;
+border-radius:50%;
+float:center;
+}
+</style>
+</head>
+<body>
+<div id="all">
+<div id="para">
+<p>Welcome To Wonderla Tourism Official Page</p>
+<a href="file:///C:/Users/M%20Priya/Desktop/lo.html" style="color:green">Login</a>
+<div id="header">
+<ul>
+<li><a>Home</a></li>
+<li><a>Holiday Trip</a></li>
+<li><a>Business Trip</a></li>
+<li><a>Galary</a></li>
+</ul>
+</div>
+<div id="nav">
+<img src="tn.jpg">
+</div>
+<div id="main">
+<ul>
+<li><i class="fa fa-instagram" aria-hidden="true"></i></li>
+<li><i class="fa fa-facebook-official" aria-hidden="true"></i></li>
+<li><i class="fa fa-youtube" aria-hidden="true"></i></li>
+</ul>
+
+</div>
+<div id="footer">
+</div>
+</div>
+</body>
+</html>

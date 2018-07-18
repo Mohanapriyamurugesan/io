@@ -1,0 +1,292 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Galary</title>
+<style>
+body
+{
+margin:0;
+padding:0;
+background:#262626;
+font-family:sans-serif;
+}
+h1
+{
+text-align:center;
+font-family:Algerian;
+color:green;
+font-size:50px;
+}
+.container
+{
+width:1280px;
+
+margin:70px auto 0;
+display:flex;
+flex-direction:row;
+flex-wrap:wrap;
+}
+.container .box
+{
+position:relative;
+width:300px;
+height:300px;
+background:#ff0;
+margin:10px;
+box-sizing:boder-box;
+display:inline-block;
+}
+.container .box .imgBox
+{
+position:relative;
+overflow:hidden;
+}
+.container .box .imgBox img
+{
+max-width:100%;
+height:300px;
+transition:transform 2s;
+}
+.container .box:hover .imgBox img
+{
+transform:scale(1.2);
+}
+.container .box .details
+{
+position:absolute;
+bottom:10px;
+left:10px;
+right:10px;
+background:rgba(0,0,0,.8);
+transform:scaleY(0);
+transition:transform .5s;
+}
+.container .box:hover .details
+{
+transform:scaleY(2);
+}
+.container .box .details .content
+{
+position:absolute;
+top:50%;
+transform:translateY(-50%);
+text-align:center;
+padding:15px;
+color:#fff;
+}
+.container .box .details h1
+{
+margin:0;
+padding:0;
+font-size:20px;
+color:#ff0;
+}
+</style>
+</head>
+<body>
+<h1>Welcome To Our Galary</h1>
+<hr color="gray" size="4px" style="width:1200px">
+<div class="container">
+<div class="box">
+<div class="imgBox">
+<img src="image/Tanjavur.jpg">
+</div>
+<div class="details">
+<div class="contant">
+<h1>Tanjavur</h1>
+</div>
+</div>
+</div>
+<div class="box">
+<div class="imgBox">
+<img src="image/vivek.jpg">
+</div>
+<div class="details">
+<div class="contant">
+<h1>Kanyakumari</h1>
+</div>
+</div>
+</div>
+<div class="box">
+<div class="imgBox">
+<img src="image/maha.jpg">
+</div>
+<div class="details">
+<div class="contant">
+<h1>Mahabalipuram</h1>
+</div>
+</div>
+</div>
+<div class="box">
+<div class="imgBox">
+<img src="image/vedan.jpg">
+</div>
+<div class="details">
+<div class="contant">
+<h1>Vedanthangal</h1>
+</div>
+</div>
+</div>
+<div class="box">
+<div class="imgBox">
+<img src="image/mena.jpg">
+</div>
+<div class="details">
+<div class="contant">
+<h1>Meenachiyamman Temple</h1>
+</div>
+</div>
+</div>
+<div class="box">
+<div class="imgBox">
+<img src="image/yercud.jpg">
+</div>
+<div class="details">
+<div class="contant">
+<h1>Yercud</h1>
+</div>
+</div>
+</div>
+<div class="box">
+<div class="imgBox">
+<img src="image/merina.jpg">
+</div>
+<div class="details">
+<div class="contant">
+<h1>Merina</h1>
+</div>
+</div>
+</div>
+<div class="box">
+<div class="imgBox">
+<img src="image/kan.jpg">
+</div>
+<div class="details">
+<div class="contant">
+<h1>Kanyakumari</h1>
+</div>
+</div>
+</div>
+<div class="box">
+<div class="imgBox">
+<img src="image/picha.jpg">
+</div>
+<div class="details">
+<div class="contant">
+<h1>Mangroove Forest</h1>
+</div>
+</div>
+</div>
+<div class="box">
+<div class="imgBox">
+<img src="image/kut.jpg" width="1000px">
+</div>
+<div class="details">
+<div class="contant">
+<h1>Kutralam</h1>
+</div>
+</div>
+</div>
+<div class="box">
+<div class="imgBox">
+<img src="image/vevekanan.jpg">
+</div>
+<div class="details">
+<div class="contant">
+<h1>Vivekanandha Musium</h1>
+</div>
+</div>
+</div>
+<div class="box">
+<div class="imgBox">
+<img src="image/thiruval.jpg">
+</div>
+<div class="details">
+<div class="contant">
+<h1>Thiruvalluvar Statue</h1>
+</div>
+</div>
+</div>
+<div class="box">
+<div class="imgBox">
+<img src="image/pamban.jpg">
+</div>
+<div class="details">
+<div class="contant">
+<h1>Pamban Bridge</h1>
+</div>
+</div>
+</div>
+<div class="box">
+<div class="imgBox">
+<img src="image/Tea.jpg">
+</div>
+<div class="details">
+<div class="contant">
+<h1>Tea Gardan</h1>
+</div>
+</div>
+</div>
+<div class="box">
+<div class="imgBox">
+<img src="image/lake.jpg">
+</div>
+<div class="details">
+<div class="contant">
+<h1>Ooty</h1>
+</div>
+</div>
+</div>
+<div class="box">
+<div class="imgBox">
+<img src="image/kodai.jpg">
+</div>
+<div class="details">
+<div class="contant">
+<h1>Kodaikanal</h1>
+</div>
+</div>
+</div>
+<div class="box">
+<div class="imgBox">
+<img src="image/ramesh.jpg">
+</div>
+<div class="details">
+<div class="contant">
+<h1>Rameshwaram</h1>
+</div>
+</div>
+</div>
+<div class="box">
+<div class="imgBox">
+<img src="image/coonur.jpg">
+</div>
+<div class="details">
+<div class="contant">
+<h1>Coonoor</h1>
+</div>
+</div>
+</div>
+<div class="box">
+<div class="imgBox">
+<img src="image/trichy.jpeg">
+</div>
+<div class="details">
+<div class="contant">
+<h1>Malaikottai</h1>
+</div>
+</div>
+</div>
+<div class="box">
+<div class="imgBox">
+<img src="image/srirangam.jpg">
+</div>
+<div class="details">
+<div class="contant">
+<h1>Srirangapatnam</h1>
+</div>
+</div>
+</div>
+</div>
+</body>
+</html>

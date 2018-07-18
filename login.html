@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Login Form Design</title>
+<style>
+body
+{
+margin:0;
+padding:0;
+background:url(image/coonur.jpg);
+background-size:cover;
+font-family:sans-serif;
+}
+.loginBox
+{
+width:350px;
+height:450px;
+background:#000;
+color:#fff;
+top:-20%;
+left:30%;
+position:absolute;
+transform:translate(40%,50%);
+box-sizing:border-box;
+padding:70px 30px;
+border-radius:10px;
+}
+h1
+{
+margin:0;
+padding:0 0 28px;
+text-align:center;
+}
+.loginBox p
+{
+margin:0;
+padding:0;
+font-weight:bold;
+}
+.loginBox input
+{
+width:100%;
+margin-bottom:20px;
+}
+.loginBox input[type="text"],input[type="password"]
+{
+border:none;
+border-bottom:1px solid #fff;
+background:transparent;
+outline:none;
+height:40px;
+color:#fff;
+font-size:16px;
+}
+.loginBox input[type="submit"]
+{
+border:none;
+outline:none;
+height:35px;
+background:red;
+color:black;
+font-size:18px;
+border-radius:20px;
+}
+.loginBox input[type="submit"]:hover
+{
+cursor:pointer;
+background:blue;
+color:black;
+}
+.loginBox a
+{
+text-decoration:none;
+font-size:12px;
+line-height:20px;
+color:darkgray;
+}
+.loginBox a:hover
+{
+color:white;
+}
+</style>
+</head>
+<body>
+<div class="loginBox">
+
+<h1>Login Here</h1>
+<form>
+<p>User name</p>
+<input type="text" name="" placeholder="Enter Username">
+<p>Password</p>
+<input type="text" name="" placeholder="Enter Password"><br>
+<input type="submit" name="submit" value="submit"><br>
+<a href="#">Lost your Password?</a><br>
+<a href="sign.html">Don't have any account?</a>
+</form>
+</div>
+</body>
+</html>
